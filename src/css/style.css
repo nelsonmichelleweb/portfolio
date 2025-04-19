@@ -246,3 +246,55 @@
     height: 100vh;
     padding-left: 0px;
 }
+
+.con {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.webs {
+    height: 550px;
+    
+    border-radius: 10%;
+    width: 550px;
+    margin-bottom: 80px;
+    outline: 7px dashed #FFFFFF;
+    outline-offset: 5px;
+    
+    align-content: center;
+    margin-top: 220px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.website {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    text-align: center;
+    border: 5px solid white;
+    margin-bottom: 5px;
+    
+}
+
+.links {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.links a {
+  font-family: "Sour Gummy", serif;
+  font-size: 20px;
+  color: #faf2ed;
+  text-decoration: none;
+}
+
+.desc p{
+  font-family: "Quicksand", serif;
+  color: pink;
+  font-size: 15px;
+  line-height: 30px;
+}
