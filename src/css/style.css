@@ -298,3 +298,79 @@
   font-size: 15px;
   line-height: 30px;
 }
+
+.pg4 {
+    margin: 0px;
+    top: 300vh;
+    height: 100vh;
+    padding-left: 0px;
+}
+
+#wave4 .waves4 .wave4 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100px;
+    background: url("../img/wave2.png");
+    background-size: 1000px 100px;
+  }
+  
+  #wave4 .wave4 .wave4#wave13 {
+    z-index: 998;
+    opacity: 1;
+    animation: animate5 4s linear infinite;
+    top: -15px;
+  }
+  
+  #wave4 .waves4 .wave4#wave14 {
+    z-index: 997;
+    opacity: 0.2;
+    animation: animate5 3s linear infinite;
+    top: 5px;
+  }
+  
+  #wave4 .waves4 .wave4#wave15 {
+    z-index: 996;
+    opacity: 0.5;
+    animation: animate6 4s linear infinite;
+    top: 10px;
+  }
+  
+  #wave4 .waves4 .wave4#wave16 {
+    z-index: 997;
+    opacity: 0.7;
+    animation: animate6 3s linear infinite;
+    top: -10px;
+  }
+  
+  @keyframes animate7 {
+    0%
+    {
+        background-position: 1000px;
+    
+    }
+  
+    100%
+    {
+  
+        background-position: 0;
+    }
+  }
+  
+  @keyframes animate8 {
+    0%
+    {
+        background-position: 0;
+    
+    }
+  
+    100%
+    {
+  
+        background-position: 1000px;
+    }
+  }
+
+  .contact {
+    margin-top: 200px;
+  }
