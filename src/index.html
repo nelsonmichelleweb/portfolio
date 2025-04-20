@@ -14,7 +14,7 @@
 
 
 
-
+<script defer src="script.js"></script>
 <script type="module" src="../node_modules/bootstrap/js/src/carousel.js"></script>
 
 <!-- Font Awesome (if you're using it) -->
@@ -29,10 +29,10 @@
 <!--Fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   </head>
     <body >
-        <div class="pg1 bg-primary vh-100">
+        <div class="pg1 bg-primary vh-100" id="pg1">
             <div id="wave">
                 <div class="waves">
                     <div class="wave" id="wave1"></div>
@@ -42,19 +42,34 @@
     
                 </div>
             </div>
+            <ul class="nav justify-content-end position-absolute d-flex flex-row">
+                
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="3pg1">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#pg2">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="#pg3">Websites</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5" href="#pg4">Contact</a>
+                  </li>
+              </ul>
             <div class="pfp">
-                <img class="rounded-circle position-absolute" src="https://placecats.com/300/200">
+                <img class="rounded-circle position-absolute" src="../src/img/intro.png">
             </div>
             <div class="d-flex flex-column position-absolute intro">
                 <h1 class="display-4">
                     Web Developer
                 </h1>
                 <p class="fs-3 mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quam tortor, volutpat sit amet ante quis, suscipit mattis nulla. Nam lacinia dui in pulvinar iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In nisl eros, dictum in consequat eget, tincidunt sed mauris. 
+                    Creative and detail-oriented web developer with a passion for crafting responsive, user-friendly websites. Skilled in HTML, CSS, JavaScript. Combines a strong eye for design with solid coding practices to bring ideas to life and deliver seamless digital experiences. 
                 </p>
             </div>
         </div>
-        <div class="pg2 bg-secondary vh-100 position-absolute container-fluid">
+        <div class="pg2 bg-secondary vh-100 position-absolute container-fluid" id="pg2">
             <div id="wave2">
                 <div class="waves2">
                     <div class="wave2" id="wave5"></div>
@@ -65,7 +80,7 @@
                 </div>
         </div>
         <div class="pf">
-            <img class="rounded-circle position-absolute top-25" src="https://placecats.com/300/200">
+            <img class="rounded-circle position-absolute top-25" src="../src/img/pfp.png">
         </div>
         <div class="d-flex flex-column position-absolute about">
             <h1 class="display-4">About Me</h1>
@@ -87,7 +102,7 @@
             </div>
         </div>
         </div>
-        <div class="pg3 bg-primary vh-100 position-absolute container-fluid">
+        <div class="pg3 bg-primary vh-100 position-absolute container-fluid" id="pg3">
             <div id="wave3">
                 <div class="waves3">
                     <div class="wave3" id="wave9"></div>
@@ -102,7 +117,7 @@
                   <div class="horz">
                     <img class="website" src="../src/img/web1.gif">
                     <div class="links">
-                      <a href="#">Live preview |</a> <a href="#">Source code |</a> <a href="#">Wireframe</a>
+                      <a href="https://nelsonmichelleweb.github.io/PastelParasol/">Live preview |</a> <a href="https://github.com/nelsonmichelleweb/PastelParasol">Source code |</a> <a href="#">Wireframe</a>
                     </div>
                     <div class="desc">
                       <p>&emsp;Pastel Parasol is a one-page website designed to capture the elegance and charm of Lolita fashion.
@@ -116,7 +131,7 @@
                     <div class="horz">
                       <img class="website" src="../src/img/web2.gif">
                       <div class="links">
-                        <a href="#">Live preview |</a> <a href="#">Source code |</a> <a href="#">Wireframe</a>
+                        <a href="https://nelsonmichelleweb.github.io/pricing-page/src/index.html">Live preview |</a> <a href="https://github.com/nelsonmichelleweb/pricing-page">Source code |</a> <a href="https://postimg.cc/KKDXg1mn">Wireframe</a>
                       </div>
                       <div class="desc">
                         <p>&emsp;With FluentGo, I've designed the pricing page to be as clear and straightforward 
@@ -128,7 +143,7 @@
                   </div>
             </div>
         </div>
-        <div class="pg4 bg-secondary vh-100 position-absolute container-fluid">
+        <div class="pg4 bg-secondary vh-100 position-absolute container-fluid" id="pg4">
             <div id="wave4">
                 <div class="waves4">
                     <div class="wave4" id="wave13"></div>

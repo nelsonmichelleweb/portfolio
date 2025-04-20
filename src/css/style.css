@@ -286,14 +286,14 @@
 }
 
 .links a {
-  font-family: "Sour Gummy", serif;
+  font-family: "Winky Rough", sans-serif;
   font-size: 20px;
   color: #faf2ed;
   text-decoration: none;
 }
 
 .desc p{
-  font-family: "Quicksand", serif;
+  font-family: "Raleway", sans-serif;
   color: pink;
   font-size: 15px;
   line-height: 30px;
@@ -377,7 +377,7 @@
   }
 
   a {
-    color: #157A6E;
+    color: #501537;
     text-decoration: none;
   }
 
@@ -388,3 +388,34 @@
     left: 45%;
     color: #C2C5BB;
   }
+
+  .nav {
+    z-index: 998;
+    right: 10px;
+    top: 10px;
+  }
+
+.nav-link {
+  color: #501537;
+}
+
+h1 {
+  font-family: "Winky Rough", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
+  font-family: "Winky Rough", sans-serif;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
