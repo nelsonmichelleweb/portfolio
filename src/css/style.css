@@ -372,5 +372,19 @@
   }
 
   .contact {
-    margin-top: 200px;
+    margin-top: 300px;
+    border-radius: 50px;
+  }
+
+  a {
+    color: #157A6E;
+    text-decoration: none;
+  }
+
+  footer {
+    margin-top: 100px;
+    margin-bottom: 0;
+    bottom: 10px;
+    left: 45%;
+    color: #C2C5BB;
   }
